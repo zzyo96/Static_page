@@ -1,7 +1,20 @@
 *{margin: 0;padding: 0;}
 *{box-sizing: border-box}
 *{list-style: none;}
+.clearfix::after{content: '';display: block;clear: both;}
 input{outline: none; width: 450px; border: none}
 .top{background: rgb(77,109,169);}
-.topMain{width: 980px;border: 1px solid red;margin: 0 auto;display: flex;padding: 5px 0}
+.topWrapper{width: 1200px;margin: 0 auto;}
+.topMain{display: flex;padding: 5px 0;float: left;}
 .icon{width: 20px;height: 20px;background: #fff;margin: 0 10px 0 0;}
+.userDetail{float: right;padding: 5px 0;display: flex;justify-content: center;align-items: center;}
+.userDetail>div{width: 20px;height: 20px;background: #fff;margin: 0 20px 0 0;}
+.userDetail>.userName{width: 40px; height:8px;background: #fff;}
+.main{height: 300px;width: 1200px;background:rgb(258,118,113);margin: 0 auto }
+.main>.picAndIntr{position: relative;top: 220px;left: 10px;display: flex; float: left;}
+.main>.picAndIntr>.mainPic{width: 100px;height: 100px;background: rgb(248,166,93);border: 2px solid #fff;}
+.main>.picAndIntr>.mainIntr{float: right;}
+.main>.picAndIntr>.mainIntr>p{width: 150px; height: 8px;background: #fff;margin: 15px 0px 0 20px;}
+.main>.picAndIntr>.mainIntr>p:first-child{margin: 30px 0 0 20px;}
+.main>.mainDetail{float: right;position: relative;top: 265px;right: 20px;display: flex;}
+.main>.mainDetail>p{width:150px;height: 20px;background: #fff;margin-right: 10px;}
