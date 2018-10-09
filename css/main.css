@@ -20,6 +20,8 @@ input{outline: none; width: 450px; border: none}
 .main>.picAndIntr>.mainIntr>p:first-child{margin: 30px 0 0 20px;}
 .main>.mainDetail{float: right;position: relative;top: 265px;right: 20px;display: flex;}
 .main>.mainDetail>p{width:150px;height: 20px;background: #fff;margin-right: 10px;}
-.nav{height: 40px;background: #fff;}
+.nav{height: 40px;background: #fff;margin: 0 0 10px 0;}
 .nav .navDetail{position: relative;left: 120px;}
 .nav p{float: left;height: 10px;width: 35px;background: #ddd;margin: 15px 10px;}
+.contentLeft{width: 480px;height: 680px;border: 1px solid darkblue;float: left;}
+.contentRight{width:710px;border: 1px solid darkcyan;height: 680px;float: right;}
